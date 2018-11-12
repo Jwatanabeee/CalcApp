@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String text1 = EditText1.getText().toString();
         String text2 = EditText2.getText().toString();
 
-        if(text1.compareTo("")==0 ||  text2.compareTo("")==0) {
+        if(text1.equals("") ||  text2.equals("")) {
             showAlertDialog();
             return;
 
